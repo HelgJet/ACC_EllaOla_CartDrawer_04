@@ -1,0 +1,40 @@
+.ACC_EllaOla_CartDrawer_04-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 10px 0;
+  padding: 11px 12px;
+  background-color: rgba(75, 137, 125, 0.13);
+  border-radius: 4px;
+  font-family: sofia, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.35;
+  font-weight: 400;
+  color: #2F5C53;
+}
+
+.ACC_EllaOla_CartDrawer_04-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  color: #2F5C53;
+}
+
+.ACC_EllaOla_CartDrawer_04-icon svg {
+  display: block;
+}
+
+.ACC_EllaOla_CartDrawer_04-text {
+  color: #2F5C53;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 749px) {
+  .ACC_EllaOla_CartDrawer_04-bar {
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+}

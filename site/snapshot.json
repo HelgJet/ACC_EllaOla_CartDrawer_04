@@ -1,0 +1,2147 @@
+{
+  "id": "snap-0004",
+  "url": "https://ellaola.com/",
+  "platform": {
+    "platform": "shopify",
+    "confidence": 1,
+    "evidence": [
+      "cdn.shopify.com asset host",
+      "Shopify JS global present",
+      "shopify-section wrappers in DOM",
+      "ShopifyAnalytics meta"
+    ]
+  },
+  "theme": {
+    "evidence": [
+      "Dawn markers present"
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://ellaola.com/",
+      "pageType": "PDP",
+      "title": "EllaOla | Next Generation Wellness | Science First, Plant-Based",
+      "domNodeCount": 3879,
+      "components": [
+        {
+          "role": "product-form",
+          "present": false,
+          "selectors": [],
+          "evidence": []
+        },
+        {
+          "role": "add-to-cart-button",
+          "present": false,
+          "selectors": [],
+          "evidence": []
+        },
+        {
+          "role": "cart-drawer",
+          "present": true,
+          "selectors": [
+            "[id*=\"cart-drawer\" i]"
+          ],
+          "evidence": [
+            "matched [id*=\"cart-drawer\" i] (1)"
+          ]
+        },
+        {
+          "role": "cart-trigger",
+          "present": true,
+          "selectors": [
+            "a[href=\"/cart\"]",
+            ".header__icon--cart",
+            "a[href*=\"/cart\"]"
+          ],
+          "evidence": [
+            "matched a[href=\"/cart\"] (2)",
+            "matched .header__icon--cart (2)",
+            "matched a[href*=\"/cart\"] (2)"
+          ]
+        },
+        {
+          "role": "price",
+          "present": true,
+          "selectors": [
+            ".price",
+            ".price-item"
+          ],
+          "evidence": [
+            "matched .price (20)",
+            "matched .price-item (40)"
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "role": "product-form",
+      "present": false,
+      "selectors": [],
+      "evidence": []
+    },
+    {
+      "role": "add-to-cart-button",
+      "present": false,
+      "selectors": [],
+      "evidence": []
+    },
+    {
+      "role": "cart-drawer",
+      "present": true,
+      "selectors": [
+        "[id*=\"cart-drawer\" i]"
+      ],
+      "evidence": [
+        "matched [id*=\"cart-drawer\" i] (1)"
+      ]
+    },
+    {
+      "role": "cart-trigger",
+      "present": true,
+      "selectors": [
+        "a[href=\"/cart\"]",
+        ".header__icon--cart",
+        "a[href*=\"/cart\"]"
+      ],
+      "evidence": [
+        "matched a[href=\"/cart\"] (2)",
+        "matched .header__icon--cart (2)",
+        "matched a[href*=\"/cart\"] (2)"
+      ]
+    },
+    {
+      "role": "price",
+      "present": true,
+      "selectors": [
+        ".price",
+        ".price-item"
+      ],
+      "evidence": [
+        "matched .price (20)",
+        "matched .price-item (40)"
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "selector": "[data-drawer-target]",
+      "matchCount": 1,
+      "stabilityScore": 0.99,
+      "specificity": 10,
+      "uniqueness": 1,
+      "semanticQuality": 1,
+      "generatedClassRisk": 0,
+      "positionRisk": 0.05,
+      "reason": "data-attribute (stable); unique match; semantic name"
+    },
+    {
+      "selector": "#cart-drawer",
+      "matchCount": 1,
+      "stabilityScore": 0.81,
+      "specificity": 100,
+      "uniqueness": 1,
+      "semanticQuality": 0.7,
+      "generatedClassRisk": 0,
+      "positionRisk": 0.05,
+      "reason": "id-based; unique match; semantic name"
+    },
+    {
+      "selector": "#cart-notification-button",
+      "matchCount": 2,
+      "stabilityScore": 0.64,
+      "specificity": 100,
+      "uniqueness": 0.5,
+      "semanticQuality": 0.7,
+      "generatedClassRisk": 0,
+      "positionRisk": 0.05,
+      "reason": "id-based; matches multiple (0.50); semantic name"
+    },
+    {
+      "selector": ".drawer",
+      "matchCount": 1,
+      "stabilityScore": 0.63,
+      "specificity": 10,
+      "uniqueness": 1,
+      "semanticQuality": 0.6,
+      "generatedClassRisk": 0.8,
+      "positionRisk": 0.05,
+      "reason": "unique match; semantic name; WARN: looks like a generated class"
+    },
+    {
+      "selector": "section.drawer",
+      "matchCount": 1,
+      "stabilityScore": 0.63,
+      "specificity": 11,
+      "uniqueness": 1,
+      "semanticQuality": 0.6,
+      "generatedClassRisk": 0.8,
+      "positionRisk": 0.05,
+      "reason": "unique match; semantic name; WARN: looks like a generated class"
+    },
+    {
+      "selector": ".button--secondary",
+      "matchCount": 2,
+      "stabilityScore": 0.45,
+      "specificity": 10,
+      "uniqueness": 0.5,
+      "semanticQuality": 0.6,
+      "generatedClassRisk": 0.8,
+      "positionRisk": 0.05,
+      "reason": "matches multiple (0.50); semantic name; WARN: looks like a generated class"
+    },
+    {
+      "selector": "a.button",
+      "matchCount": 3,
+      "stabilityScore": 0.4,
+      "specificity": 11,
+      "uniqueness": 0.33,
+      "semanticQuality": 0.6,
+      "generatedClassRisk": 0.8,
+      "positionRisk": 0.05,
+      "reason": "matches multiple (0.33); semantic name; WARN: looks like a generated class"
+    },
+    {
+      "selector": ".button--full-width",
+      "matchCount": 4,
+      "stabilityScore": 0.37,
+      "specificity": 10,
+      "uniqueness": 0.25,
+      "semanticQuality": 0.6,
+      "generatedClassRisk": 0.8,
+      "positionRisk": 0.05,
+      "reason": "matches multiple (0.25); semantic name; WARN: looks like a generated class"
+    },
+    {
+      "selector": ".price",
+      "matchCount": 20,
+      "stabilityScore": 0.3,
+      "specificity": 10,
+      "uniqueness": 0.05,
+      "semanticQuality": 0.6,
+      "generatedClassRisk": 0.8,
+      "positionRisk": 0.05,
+      "reason": "matches multiple (0.05); semantic name; WARN: looks like a generated class"
+    },
+    {
+      "selector": ".price--large",
+      "matchCount": 20,
+      "stabilityScore": 0.3,
+      "specificity": 10,
+      "uniqueness": 0.05,
+      "semanticQuality": 0.6,
+      "generatedClassRisk": 0.8,
+      "positionRisk": 0.05,
+      "reason": "matches multiple (0.05); semantic name; WARN: looks like a generated class"
+    },
+    {
+      "selector": "div.price",
+      "matchCount": 20,
+      "stabilityScore": 0.3,
+      "specificity": 11,
+      "uniqueness": 0.05,
+      "semanticQuality": 0.6,
+      "generatedClassRisk": 0.8,
+      "positionRisk": 0.05,
+      "reason": "matches multiple (0.05); semantic name; WARN: looks like a generated class"
+    }
+  ],
+  "elements": [
+    {
+      "selector": "#4B897D",
+      "exists": false,
+      "matchCount": 0,
+      "role": "brief-target"
+    },
+    {
+      "selector": "#2F5C53",
+      "exists": false,
+      "matchCount": 0,
+      "role": "brief-target"
+    },
+    {
+      "selector": "#FBF6EE",
+      "exists": false,
+      "matchCount": 0,
+      "role": "brief-target"
+    },
+    {
+      "selector": "#1A1B18",
+      "exists": false,
+      "matchCount": 0,
+      "role": "brief-target"
+    },
+    {
+      "selector": "#ff856b",
+      "exists": false,
+      "matchCount": 0,
+      "role": "brief-target"
+    },
+    {
+      "selector": "[id*=\"cart-drawer\" i]",
+      "exists": true,
+      "matchCount": 1,
+      "tag": "section",
+      "text": "Your Cart\n        \n        \n      \n    \n\n    \n      \n        \n      \n\n      \n        \n      \n\n      \n        Your cart i",
+      "classes": [
+        "drawer"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgba(26, 27, 24, 0.75)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "position": "static",
+        "display": "none",
+        "zIndex": "auto"
+      },
+      "role": "cart-drawer"
+    },
+    {
+      "selector": "a[href=\"/cart\"]",
+      "exists": true,
+      "matchCount": 2,
+      "tag": "a",
+      "text": "",
+      "classes": [
+        "button",
+        "button--secondary",
+        "button--full-width"
+      ],
+      "rect": {
+        "x": 908,
+        "y": -120,
+        "width": 296,
+        "height": 28
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgb(119, 119, 112)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "200px",
+        "padding": "12px 24px",
+        "position": "static",
+        "display": "flex",
+        "zIndex": "auto"
+      },
+      "role": "cart-trigger"
+    },
+    {
+      "selector": ".header__icon--cart",
+      "exists": true,
+      "matchCount": 2,
+      "tag": "a",
+      "text": "Group 7\n    \n        \n            \n                \n                    \n                        \n                      ",
+      "classes": [
+        "header__icon",
+        "header__icon--cart",
+        "link",
+        "link--text",
+        "focus-inset"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "color": "rgb(26, 27, 24)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "position": "relative",
+        "display": "flex",
+        "zIndex": "auto"
+      },
+      "role": "cart-trigger"
+    },
+    {
+      "selector": "a[href*=\"/cart\"]",
+      "exists": true,
+      "matchCount": 2,
+      "tag": "a",
+      "text": "",
+      "classes": [
+        "button",
+        "button--secondary",
+        "button--full-width"
+      ],
+      "rect": {
+        "x": 908,
+        "y": -120,
+        "width": 296,
+        "height": 28
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgb(119, 119, 112)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "200px",
+        "padding": "12px 24px",
+        "position": "static",
+        "display": "flex",
+        "zIndex": "auto"
+      },
+      "role": "cart-trigger"
+    },
+    {
+      "selector": ".price",
+      "exists": true,
+      "matchCount": 20,
+      "tag": "div",
+      "text": "Regular price\n      \n      \n        \n          \n            $39.20\n          \n        \n        \n          $49.00\n       ",
+      "classes": [
+        "price",
+        "price--large"
+      ],
+      "rect": {
+        "x": 50,
+        "y": 1727,
+        "width": 122,
+        "height": 27
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgba(26, 27, 24, 0.75)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "position": "static",
+        "display": "block",
+        "zIndex": "auto"
+      },
+      "role": "price"
+    },
+    {
+      "selector": ".price-item",
+      "exists": true,
+      "matchCount": 40,
+      "tag": "span",
+      "text": "$49.00",
+      "classes": [
+        "price-item",
+        "price-item--regular"
+      ],
+      "rect": {
+        "x": 113,
+        "y": 1729,
+        "width": 59,
+        "height": 23
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgba(26, 27, 24, 0.75)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "position": "static",
+        "display": "inline",
+        "zIndex": "auto"
+      },
+      "role": "price"
+    },
+    {
+      "selector": "[data-drawer-target]",
+      "exists": true,
+      "matchCount": 1,
+      "tag": "section",
+      "text": "Your Cart\n        \n        \n      \n    \n\n    \n      \n        \n      \n\n      \n        \n      \n\n      \n        Your cart i",
+      "classes": [
+        "drawer"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgba(26, 27, 24, 0.75)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "position": "static",
+        "display": "none",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "selector": "#cart-drawer",
+      "exists": true,
+      "matchCount": 1,
+      "tag": "section",
+      "text": "Your Cart\n        \n        \n      \n    \n\n    \n      \n        \n      \n\n      \n        \n      \n\n      \n        Your cart i",
+      "classes": [
+        "drawer"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgba(26, 27, 24, 0.75)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "position": "static",
+        "display": "none",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "selector": "#cart-notification-button",
+      "exists": true,
+      "matchCount": 2,
+      "tag": "a",
+      "text": "",
+      "classes": [
+        "button",
+        "button--secondary",
+        "button--full-width"
+      ],
+      "rect": {
+        "x": 908,
+        "y": -120,
+        "width": 296,
+        "height": 28
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgb(119, 119, 112)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "200px",
+        "padding": "12px 24px",
+        "position": "static",
+        "display": "flex",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "selector": ".drawer",
+      "exists": true,
+      "matchCount": 1,
+      "tag": "section",
+      "text": "Your Cart\n        \n        \n      \n    \n\n    \n      \n        \n      \n\n      \n        \n      \n\n      \n        Your cart i",
+      "classes": [
+        "drawer"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgba(26, 27, 24, 0.75)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "position": "static",
+        "display": "none",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "selector": "section.drawer",
+      "exists": true,
+      "matchCount": 1,
+      "tag": "section",
+      "text": "Your Cart\n        \n        \n      \n    \n\n    \n      \n        \n      \n\n      \n        \n      \n\n      \n        Your cart i",
+      "classes": [
+        "drawer"
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgba(26, 27, 24, 0.75)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "position": "static",
+        "display": "none",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "selector": ".button--secondary",
+      "exists": true,
+      "matchCount": 2,
+      "tag": "a",
+      "text": "",
+      "classes": [
+        "button",
+        "button--secondary",
+        "button--full-width"
+      ],
+      "rect": {
+        "x": 908,
+        "y": -120,
+        "width": 296,
+        "height": 28
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgb(119, 119, 112)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "200px",
+        "padding": "12px 24px",
+        "position": "static",
+        "display": "flex",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "selector": "a.button",
+      "exists": true,
+      "matchCount": 3,
+      "tag": "a",
+      "text": "Skip to content",
+      "classes": [
+        "skip-to-content-link",
+        "button",
+        "visually-hidden"
+      ],
+      "rect": {
+        "x": -1,
+        "y": 24,
+        "width": 52,
+        "height": 28
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgb(119, 119, 112)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "200px",
+        "padding": "12px 24px",
+        "position": "absolute",
+        "display": "flex",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "selector": ".button--full-width",
+      "exists": true,
+      "matchCount": 4,
+      "tag": "a",
+      "text": "",
+      "classes": [
+        "button",
+        "button--secondary",
+        "button--full-width"
+      ],
+      "rect": {
+        "x": 908,
+        "y": -120,
+        "width": 296,
+        "height": 28
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgb(119, 119, 112)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "200px",
+        "padding": "12px 24px",
+        "position": "static",
+        "display": "flex",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "selector": ".price--large",
+      "exists": true,
+      "matchCount": 20,
+      "tag": "div",
+      "text": "Regular price\n      \n      \n        \n          \n            $39.20\n          \n        \n        \n          $49.00\n       ",
+      "classes": [
+        "price",
+        "price--large"
+      ],
+      "rect": {
+        "x": 50,
+        "y": 1727,
+        "width": 122,
+        "height": 27
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgba(26, 27, 24, 0.75)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "position": "static",
+        "display": "block",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "selector": "div.price",
+      "exists": true,
+      "matchCount": 20,
+      "tag": "div",
+      "text": "Regular price\n      \n      \n        \n          \n            $39.20\n          \n        \n        \n          $49.00\n       ",
+      "classes": [
+        "price",
+        "price--large"
+      ],
+      "rect": {
+        "x": 50,
+        "y": 1727,
+        "width": 122,
+        "height": 27
+      },
+      "computedStyle": {
+        "fontFamily": "sofia",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgba(26, 27, 24, 0.75)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "position": "static",
+        "display": "block",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "selector": ".drawer__checkout",
+      "role": "cart-checkout-button",
+      "within": "[id*=\"cart-drawer\" i]",
+      "exists": true,
+      "matchCount": 1,
+      "tag": "div",
+      "text": "Subtotal\n        \n      \n\n      \n        \n        Secure Checkout\n      \n\n      \n        \n      \n\n      \n        \n      ",
+      "classes": [
+        "drawer__checkout"
+      ]
+    }
+  ],
+  "tree": {
+    "product-form": {
+      "present": false,
+      "selectors": []
+    },
+    "add-to-cart-button": {
+      "present": false,
+      "selectors": []
+    },
+    "cart-drawer": {
+      "present": true,
+      "selectors": [
+        "[id*=\"cart-drawer\" i]"
+      ]
+    },
+    "cart-trigger": {
+      "present": true,
+      "selectors": [
+        "a[href=\"/cart\"]",
+        ".header__icon--cart",
+        "a[href*=\"/cart\"]"
+      ]
+    },
+    "price": {
+      "present": true,
+      "selectors": [
+        ".price",
+        ".price-item"
+      ]
+    }
+  },
+  "designSystem": {
+    "colors": {
+      "color-base-text": "26\n        , 27\n        , 24",
+      "color-base-background-1": "255\n        , 255\n        , 255",
+      "color-base-background-2": "250\n        , 241\n        , 233",
+      "color-base-solid-button-labels": "255\n        , 255\n        , 255",
+      "color-base-outline-button-labels": "68\n        , 89\n        , 88",
+      "color-base-accent-1": "68\n        , 89\n        , 88",
+      "color-base-accent-2": "157\n        , 87\n        , 44",
+      "payment-terms-background-color": "#FFFFFF",
+      "toastify-icon-color-info": "white",
+      "toastify-icon-color-success": "white",
+      "toastify-icon-color-warning": "white",
+      "toastify-icon-color-error": "white",
+      "tw-ring-offset-color": "#fff",
+      "tw-ring-color": "#fca5a5",
+      "tw-shadow-colored": "0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color)",
+      "tw-bg-opacity": "1",
+      "tw-shadow-color": "rgb(var(--accent-color) / .1)",
+      "accent-foreground": "255 255 255",
+      "accent-color": "119 119 119",
+      "primary-color": "119 119 119",
+      "background-color": "212 191 221",
+      "additional-color-0": "0 0 0",
+      "additional-color-1": "251 246 238",
+      "additional-color-2": "199 163 205",
+      "additional-color-3": "241 204 212",
+      "additional-color-4": "197 218 243",
+      "additional-color-5": "220 232 249",
+      "additional-color-6": "251 240 186"
+    },
+    "fonts": {
+      "font-body-family": "\"system_ui\"\n        , -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+      "font-body-style": "normal",
+      "font-body-weight": "400",
+      "font-heading-family": "\"system_ui\"\n        , -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+      "font-heading-style": "normal",
+      "font-heading-weight": "400"
+    },
+    "fontSizes": {
+      "display-text-size-xs": "calc(22px * 0.75)",
+      "display-text-size-sm": "calc(22px * 0.875)",
+      "display-text-size-base": "22px",
+      "display-text-size-lg": "calc(22px * 1.125)",
+      "display-text-size-xl": "calc(22px * 1.25)",
+      "body-text-size-xs": "calc(16px * 0.75)",
+      "body-text-size-sm": "calc(16px * 0.875)",
+      "body-text-size-base": "16px",
+      "body-text-size-lg": "calc(16px * 1.125)",
+      "body-text-size-xl": "calc(16px * 1.25)"
+    },
+    "fontWeights": {
+      "font-body-weight": "400",
+      "font-heading-weight": "400",
+      "display-font-weight-normal": "400",
+      "display-font-weight-medium": "400",
+      "display-font-weight-semibold": "500",
+      "display-font-weight-bold": "600",
+      "body-font-weight-normal": "500",
+      "body-font-weight-medium": "500",
+      "body-font-weight-semibold": "600",
+      "body-font-weight-bold": "700"
+    },
+    "spacing": {
+      "tw-border-spacing-x": "0",
+      "tw-border-spacing-y": "0",
+      "tw-numeric-spacing": "",
+      "tw-space-x-reverse": "0",
+      "tw-space-y-reverse": "0",
+      "display-letter-spacing": "0px",
+      "body-letter-spacing": "0px"
+    },
+    "borderRadius": {
+      "border-radius-lg": "16px"
+    },
+    "shadows": {
+      "tw-ring-offset-shadow": "var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)",
+      "tw-ring-shadow": "var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)",
+      "tw-shadow": "var(--tw-shadow-colored)}:host .fade-bottom,#alia-root-229242 .fade-bottom{position:relative}:host .fade-bottom:after,#alia-root-229242 .fade-bottom:after{content:\"\"",
+      "tw-shadow-colored": "0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color)",
+      "tw-drop-shadow": "",
+      "tw-shadow-color": "rgb(var(--accent-color) / .1)"
+    },
+    "buttons": [
+      {
+        "label": ".drawer__content__suggested__products__item button",
+        "selector": ".drawer__content__suggested__products__item button",
+        "padding": "6px 32px !important"
+      },
+      {
+        "label": ".jconfirm .jconfirm-box .jconfirm-buttons > button",
+        "selector": ".jconfirm .jconfirm-box .jconfirm-buttons > button"
+      },
+      {
+        "label": ".jconfirm .jconfirm-box .jconfirm-buttons button",
+        "selector": ".jconfirm .jconfirm-box .jconfirm-buttons button",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "padding": "6px 12px"
+      },
+      {
+        "label": ".jconfirm .jconfirm-box .jconfirm-buttons button.btn-blue",
+        "selector": ".jconfirm .jconfirm-box .jconfirm-buttons button.btn-blue",
+        "background": "#3498db",
+        "color": "#FFF"
+      },
+      {
+        "label": ".jconfirm .jconfirm-box .jconfirm-buttons button.btn-blue:hover",
+        "selector": ".jconfirm .jconfirm-box .jconfirm-buttons button.btn-blue:hover",
+        "background": "#2980b9",
+        "color": "#FFF"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "maxWidth": 749
+      },
+      {
+        "name": "tablet",
+        "minWidth": 750,
+        "maxWidth": 989
+      },
+      {
+        "name": "desktop",
+        "minWidth": 990
+      }
+    ]
+  },
+  "fonts": [
+    "\"system_ui\"\n        , -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+    "normal",
+    "400",
+    "\"system_ui\"\n        , -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+    "normal",
+    "400"
+  ],
+  "colors": [
+    "26\n        , 27\n        , 24",
+    "255\n        , 255\n        , 255",
+    "250\n        , 241\n        , 233",
+    "255\n        , 255\n        , 255",
+    "68\n        , 89\n        , 88",
+    "68\n        , 89\n        , 88",
+    "157\n        , 87\n        , 44",
+    "#FFFFFF",
+    "white",
+    "white",
+    "white",
+    "white",
+    "#fff",
+    "#fca5a5",
+    "0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color)",
+    "1",
+    "rgb(var(--accent-color) / .1)",
+    "255 255 255",
+    "119 119 119",
+    "119 119 119",
+    "212 191 221",
+    "0 0 0",
+    "251 246 238",
+    "199 163 205",
+    "241 204 212",
+    "197 218 243",
+    "220 232 249",
+    "251 240 186"
+  ],
+  "scripts": [
+    {
+      "src": "https://connect.facebook.net/en_US/fbevents.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+      "src": "https://dr4qe3ddw9y32.cloudfront.net/awin-shopify-integration-code.js?aid=95855&v=shopifyApp_5.4.1&ts=1780319705832&shop=ellaola.myshopify.com",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://dr4qe3ddw9y32.cloudfront.net/awin-shopify-integration-code.js?aid=95855&v=shopifyApp_5.4.1&ts=1780319705832&shop=ellaola.myshopify.com"
+    },
+    {
+      "src": "https://services.nofraud.com/js/device.js?shop=ellaola.myshopify.com",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://services.nofraud.com/js/device.js?shop=ellaola.myshopify.com"
+    },
+    {
+      "src": "https://api.socialsnowball.io/js/referral.js?shop=ellaola.myshopify.com",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://api.socialsnowball.io/js/referral.js?shop=ellaola.myshopify.com"
+    },
+    {
+      "src": "https://sdk.postscript.io/sdk-script-loader.bundle.js?shopId=745389&shop=ellaola.myshopify.com",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://sdk.postscript.io/sdk-script-loader.bundle.js?shopId=745389&shop=ellaola.myshopify.com"
+    },
+    {
+      "src": "https://cdn.rebuyengine.com/onsite/js/rebuy.js?shop=ellaola.myshopify.com",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://cdn.rebuyengine.com/onsite/js/rebuy.js?shop=ellaola.myshopify.com"
+    },
+    {
+      "src": "//cdn.shopify.com/proxy/e05faefe3531f3dad7b4f8896f3b765de8b29d7ceff0241eb533bc7fea1ae641/api.goaffpro.com/loader.js?shop=ellaola.myshopify.com&sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA",
+      "inline": false,
+      "category": "theme",
+      "evidence": "//cdn.shopify.com/proxy/e05faefe3531f3dad7b4f8896f3b765de8b29d7ceff0241eb533bc7fea1ae641/api.goaffpro.com/loader.js?shop=ellaola.myshopify.com&sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA"
+    },
+    {
+      "src": "https://d1639lhkj5l89m.cloudfront.net/js/storefront/uppromote.js?shop=ellaola.myshopify.com",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://d1639lhkj5l89m.cloudfront.net/js/storefront/uppromote.js?shop=ellaola.myshopify.com"
+    },
+    {
+      "src": "https://cdn-widgetsrepository.yotpo.com/v1/loader/JzvBPjcCLyIfM6iKOPQIs0Gml8NQcLa6TEn7TaYU?shop=ellaola.myshopify.com",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://cdn-widgetsrepository.yotpo.com/v1/loader/JzvBPjcCLyIfM6iKOPQIs0Gml8NQcLa6TEn7TaYU?shop=ellaola.myshopify.com"
+    },
+    {
+      "src": "//cdn.shopify.com/proxy/3b9970fe01a2df23122440fa1823f52e89635e9b105673b3cd982e7562dfbef8/app.retention.com/shopify/shopify_app_add_to_cart_script.js?shop=ellaola.myshopify.com&sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA",
+      "inline": false,
+      "category": "theme",
+      "evidence": "//cdn.shopify.com/proxy/3b9970fe01a2df23122440fa1823f52e89635e9b105673b3cd982e7562dfbef8/app.retention.com/shopify/shopify_app_add_to_cart_script.js?shop=ellaola.myshopify.com&sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA"
+    },
+    {
+      "src": "//cdn.shopify.com/proxy/cab93a1c6321ceeb1d77f938e53d606bdfc0ff7dc5785a46eb321303ab425655/s3-us-west-2.amazonaws.com/jsstore/a/MVOHW5W/ge.js?shop=ellaola.myshopify.com&sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA",
+      "inline": false,
+      "category": "theme",
+      "evidence": "//cdn.shopify.com/proxy/cab93a1c6321ceeb1d77f938e53d606bdfc0ff7dc5785a46eb321303ab425655/s3-us-west-2.amazonaws.com/jsstore/a/MVOHW5W/ge.js?shop=ellaola.myshopify.com&sp-cache-control=cHVibGljLCBtYXgtYWdlPTkwMA"
+    },
+    {
+      "src": "https://cdn-loyalty.yotpo.com/loader/8zc3FHEQ_xaRAjnmzn5j6g.js?shop=ellaola.myshopify.com",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://cdn-loyalty.yotpo.com/loader/8zc3FHEQ_xaRAjnmzn5j6g.js?shop=ellaola.myshopify.com"
+    },
+    {
+      "src": "https://instafeed.nfcube.com/cdn/b9a7761b5693f820e4d3de00ca6adc9f.js?shop=ellaola.myshopify.com",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://instafeed.nfcube.com/cdn/b9a7761b5693f820e4d3de00ca6adc9f.js?shop=ellaola.myshopify.com"
+    },
+    {
+      "src": "https://cdn.taboola.com/scripts/firstid.es5.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://cdn.taboola.com/scripts/firstid.es5.js"
+    },
+    {
+      "src": "https://cdn.taboola.com/scripts/cds-pips.js?dc=il&d=d",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://cdn.taboola.com/scripts/cds-pips.js?dc=il&d=d"
+    },
+    {
+      "src": "https://analytics.tiktok.com/i18n/pixel/static/identify_ea043f1c.js",
+      "inline": false,
+      "category": "analytics",
+      "evidence": "https://analytics.tiktok.com/i18n/pixel/static/identify_ea043f1c.js"
+    },
+    {
+      "src": "https://tr.snapchat.com/config/com/9ca24c6c-d270-4175-87ac-97ed01171480.js?v=3.60.0-2608111919",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://tr.snapchat.com/config/com/9ca24c6c-d270-4175-87ac-97ed01171480.js?v=3.60.0-2608111919"
+    },
+    {
+      "src": "https://analytics.tiktok.com/i18n/pixel/static/main.MTZkNzEzYmVhMw.js",
+      "inline": false,
+      "category": "analytics",
+      "evidence": "https://analytics.tiktok.com/i18n/pixel/static/main.MTZkNzEzYmVhMw.js"
+    },
+    {
+      "src": "https://analytics.tiktok.com/i18n/pixel/static/main.MTZkNzEzYmVhMw.js",
+      "inline": false,
+      "category": "analytics",
+      "evidence": "https://analytics.tiktok.com/i18n/pixel/static/main.MTZkNzEzYmVhMw.js"
+    },
+    {
+      "src": "https://www.googletagmanager.com/gtag/js?id=GT-WBTCB48&cx=c&gtm=4e68c1",
+      "inline": false,
+      "category": "analytics",
+      "evidence": "https://www.googletagmanager.com/gtag/js?id=GT-WBTCB48&cx=c&gtm=4e68c1"
+    },
+    {
+      "src": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CJELTQJC77U5E795N6AG&lib=ttq",
+      "inline": false,
+      "category": "analytics",
+      "evidence": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CJELTQJC77U5E795N6AG&lib=ttq"
+    },
+    {
+      "src": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CAKHG0BC77U4FTJJBMV0&lib=ttq",
+      "inline": false,
+      "category": "analytics",
+      "evidence": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CAKHG0BC77U4FTJJBMV0&lib=ttq"
+    },
+    {
+      "src": "https://sc-static.net/scevent.min.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://sc-static.net/scevent.min.js"
+    },
+    {
+      "src": "https://www.googletagmanager.com/gtag/js?id=AW-10812419834&cx=c&gtm=4e68c1",
+      "inline": false,
+      "category": "analytics",
+      "evidence": "https://www.googletagmanager.com/gtag/js?id=AW-10812419834&cx=c&gtm=4e68c1"
+    },
+    {
+      "src": "https://bzrcdn.openai.com/sdk/oaiq.min.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://bzrcdn.openai.com/sdk/oaiq.min.js"
+    },
+    {
+      "src": "https://cdn.taboola.com/libtrc/unip/2086616/tfa.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://cdn.taboola.com/libtrc/unip/2086616/tfa.js"
+    },
+    {
+      "src": "https://www.googletagmanager.com/gtag/js?id=G-X35JFQDGXQ&cx=c&gtm=4e68c1",
+      "inline": false,
+      "category": "analytics",
+      "evidence": "https://www.googletagmanager.com/gtag/js?id=G-X35JFQDGXQ&cx=c&gtm=4e68c1"
+    },
+    {
+      "src": "https://api.consentjs.datagrail.io/consent/f9672e83-6961-4ee8-9840-1f42b8b2a7e5/90c17ab2-dafa-44b6-8f44-54c2e097fac4/consent.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://api.consentjs.datagrail.io/consent/f9672e83-6961-4ee8-9840-1f42b8b2a7e5/90c17ab2-dafa-44b6-8f44-54c2e097fac4/consent.js"
+    },
+    {
+      "src": "https://scripts.clarity.ms/0.8.69/clarity.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://scripts.clarity.ms/0.8.69/clarity.js"
+    },
+    {
+      "src": "//ellaola.com/cdn/s/trekkie.storefront.22ed85677b8327684cf422c8aecaa425ca9ac45b.min.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/s/trekkie.storefront.22ed85677b8327684cf422c8aecaa425ca9ac45b.min.js"
+    },
+    {
+      "src": "//staticw2.yotpo.com//widget.js?lang=en",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//staticw2.yotpo.com//widget.js?lang=en"
+    },
+    {
+      "src": "https://www.clarity.ms/tag/pkqibwkyvm",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://www.clarity.ms/tag/pkqibwkyvm"
+    },
+    {
+      "src": "//staticw2.yotpo.com/JzvBPjcCLyIfM6iKOPQIs0Gml8NQcLa6TEn7TaYU/widget.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//staticw2.yotpo.com/JzvBPjcCLyIfM6iKOPQIs0Gml8NQcLa6TEn7TaYU/widget.js"
+    },
+    {
+      "src": "https://www.googletagmanager.com/gtm.js?id=GTM-5CHV8PQ",
+      "inline": false,
+      "category": "analytics",
+      "evidence": "https://www.googletagmanager.com/gtm.js?id=GTM-5CHV8PQ"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://scripts.conversion.io/conversion.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://scripts.conversion.io/conversion.js"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://210655.t.hyros.com/v1/lst/universal-script?ph=c85c72fe13cb429a9a299fc31e108fdd3be2e6adfc2137cb8f69ccc06120ad74&tag=!clicked&ref_url=https://ellaola.com/",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://210655.t.hyros.com/v1/lst/universal-script?ph=c85c72fe13cb429a9a299fc31e108fdd3be2e6adfc2137cb8f69ccc06120ad74&tag=!clicked&ref_url=https://ellaola.com/"
+    },
+    {
+      "inline": true,
+      "category": "analytics",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://www.googletagmanager.com/gtag/js?id=10812419834",
+      "inline": false,
+      "category": "analytics",
+      "evidence": "https://www.googletagmanager.com/gtag/js?id=10812419834"
+    },
+    {
+      "inline": true,
+      "category": "analytics",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/global.js?v=57187367600207246651783712032",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/global.js?v=57187367600207246651783712032"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/accordion.min.js?v=15504740459208041911780191154",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/accordion.min.js?v=15504740459208041911780191154"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/accordion-footer.js?v=72887778338208776281782490740",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/accordion-footer.js?v=72887778338208776281782490740"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://cdn-widgetsrepository.yotpo.com/v1/loader/JzvBPjcCLyIfM6iKOPQIs0Gml8NQcLa6TEn7TaYU",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://cdn-widgetsrepository.yotpo.com/v1/loader/JzvBPjcCLyIfM6iKOPQIs0Gml8NQcLa6TEn7TaYU"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "src": "/checkouts/internal/preloads.js?locale=en-US&default_configuration_id=7504117",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "/checkouts/internal/preloads.js?locale=en-US&default_configuration_id=7504117"
+    },
+    {
+      "src": "https://shop.app/checkouts/internal/preloads.js?locale=en-US&default_configuration_id=7504117&shop_id=57687900323",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://shop.app/checkouts/internal/preloads.js?locale=en-US&default_configuration_id=7504117&shop_id=57687900323"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "analytics",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "//ellaola.com/cdn/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "inline": false,
+      "category": "theme",
+      "evidence": "//ellaola.com/cdn/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "src": "//ellaola.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+      "inline": false,
+      "category": "theme",
+      "evidence": "//ellaola.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js"
+    },
+    {
+      "inline": true,
+      "category": "analytics",
+      "evidence": "inline script"
+    },
+    {
+      "src": "//ellaola.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js",
+      "inline": false,
+      "category": "theme",
+      "evidence": "//ellaola.com/cdn/shopifycloud/storefront/assets/storefront/autosizes-84416378.js"
+    },
+    {
+      "src": "//ellaola.com/cdn/shopifycloud/storefront/assets/shopify_pay/storefront-bf1cdb70.js?v=20250812",
+      "inline": false,
+      "category": "theme",
+      "evidence": "//ellaola.com/cdn/shopifycloud/storefront/assets/shopify_pay/storefront-bf1cdb70.js?v=20250812"
+    },
+    {
+      "src": "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-5059b83f.js",
+      "inline": false,
+      "category": "theme",
+      "evidence": "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-5059b83f.js"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/compiled_assets/scripts.js?v=166061831230244358841783712050",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/compiled_assets/scripts.js?v=166061831230244358841783712050"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "//d2jjzw81hqbuqv.cloudfront.net/integration/clients/ellaola.min.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//d2jjzw81hqbuqv.cloudfront.net/integration/clients/ellaola.min.js"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://cdn.intelligems.io/esm/293a6c4ec77f/bundle.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://cdn.intelligems.io/esm/293a6c4ec77f/bundle.js"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://prod2-cdn.upstackified.com/scripts/px/adtr-shopify.min.js",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://prod2-cdn.upstackified.com/scripts/px/adtr-shopify.min.js"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://cdn-widgetsrepository.yotpo.com/v1/loader/8zc3FHEQ_xaRAjnmzn5j6g",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://cdn-widgetsrepository.yotpo.com/v1/loader/8zc3FHEQ_xaRAjnmzn5j6g"
+    },
+    {
+      "src": "https://cdn-loyalty.yotpo.com/loader/8zc3FHEQ_xaRAjnmzn5j6g.js?shop=ellaola.com",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://cdn-loyalty.yotpo.com/loader/8zc3FHEQ_xaRAjnmzn5j6g.js?shop=ellaola.com"
+    },
+    {
+      "src": "https://static.klaviyo.com/onsite/js/UrvRta/klaviyo.js?company_id=UrvRta",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://static.klaviyo.com/onsite/js/UrvRta/klaviyo.js?company_id=UrvRta"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://cdn.shopify.com/extensions/019ff3b0-63b4-757d-9f15-8e46f7432f22/applovin-shop-integration-94/assets/app-embed.js",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://cdn.shopify.com/extensions/019ff3b0-63b4-757d-9f15-8e46f7432f22/applovin-shop-integration-94/assets/app-embed.js"
+    },
+    {
+      "src": "https://cdn.shopify.com/extensions/019ffbc0-f6ad-7063-ae27-634b2cb81619/gdpr-backpack-840/assets/consentmo_cookie_consent.js",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://cdn.shopify.com/extensions/019ffbc0-f6ad-7063-ae27-634b2cb81619/gdpr-backpack-840/assets/consentmo_cookie_consent.js"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "analytics",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://ellaola.com/cdn/wpm/b979a3e2fw137e9400p4daec9d4mf64d2306l.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://ellaola.com/cdn/wpm/b979a3e2fw137e9400p4daec9d4mf64d2306l.js"
+    },
+    {
+      "inline": true,
+      "category": "analytics",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "analytics",
+      "evidence": "inline script"
+    },
+    {
+      "src": "//ellaola.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js",
+      "inline": false,
+      "category": "theme",
+      "evidence": "//ellaola.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js"
+    },
+    {
+      "inline": true,
+      "category": "analytics",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://ellaola.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.8.3.min.js",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://ellaola.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.8.3.min.js"
+    },
+    {
+      "src": "https://ellaola.com/web-pixels@979a3e2fw137e9400p4daec9d4mf64d2306/app/web-pixel-495419637@cbf49bd7815008e05e438bca15440d34~2/pixel.legacy.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://ellaola.com/web-pixels@979a3e2fw137e9400p4daec9d4mf64d2306/app/web-pixel-495419637@cbf49bd7815008e05e438bca15440d34~2/pixel.legacy.js"
+    },
+    {
+      "src": "https://ellaola.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://ellaola.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js"
+    },
+    {
+      "src": "https://backend.alia-prod.com/public/launcher.js?shop=ellaola.myshopify.com",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://backend.alia-prod.com/public/launcher.js?shop=ellaola.myshopify.com"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://cdn-widgetsrepository.yotpo.com/widget-assets/yotpo-pixel/2026-05-19_07-47-44/bundle.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://cdn-widgetsrepository.yotpo.com/widget-assets/yotpo-pixel/2026-05-19_07-47-44/bundle.js"
+    },
+    {
+      "src": "https://cdn-widgetsrepository.yotpo.com/widget-assets/widgets-initializer/app.v0.9.11-42.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://cdn-widgetsrepository.yotpo.com/widget-assets/widgets-initializer/app.v0.9.11-42.js"
+    },
+    {
+      "src": "https://cdn-widgetsrepository.yotpo.com/widget-assets/yotpo-pixel/2026-05-19_07-47-44/bundle.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://cdn-widgetsrepository.yotpo.com/widget-assets/yotpo-pixel/2026-05-19_07-47-44/bundle.js"
+    },
+    {
+      "src": "https://cdn-widgetsrepository.yotpo.com/widget-assets/widgets-initializer/app.v0.9.11-42.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://cdn-widgetsrepository.yotpo.com/widget-assets/widgets-initializer/app.v0.9.11-42.js"
+    },
+    {
+      "src": "//cdn-swell-assets.yotpo.com/app.v1.0.368.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//cdn-swell-assets.yotpo.com/app.v1.0.368.js"
+    },
+    {
+      "src": "https://cdn.shopify.com/storefront/webmcp/webmcp-0.1.0.js",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://cdn.shopify.com/storefront/webmcp/webmcp-0.1.0.js"
+    },
+    {
+      "src": "https://static-tracking.klaviyo.com/onsite/js/fender_analytics.7db1ff1fe0783.js?cb=2",
+      "inline": false,
+      "category": "analytics",
+      "evidence": "https://static-tracking.klaviyo.com/onsite/js/fender_analytics.7db1ff1fe0783.js?cb=2"
+    },
+    {
+      "src": "https://static-tracking.klaviyo.com/onsite/js/static.2ec7158a674ab.js?cb=2",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://static-tracking.klaviyo.com/onsite/js/static.2ec7158a674ab.js?cb=2"
+    },
+    {
+      "src": "https://static.klaviyo.com/onsite/js/runtime.5b2afb090c5e3.js?cb=2",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://static.klaviyo.com/onsite/js/runtime.5b2afb090c5e3.js?cb=2"
+    },
+    {
+      "src": "https://static.klaviyo.com/onsite/js/vendors~static~in_app_forms~signup_forms~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites~faq~.8d6c8876258ae.js?cb=2",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://static.klaviyo.com/onsite/js/vendors~static~in_app_forms~signup_forms~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites~faq~.8d6c8876258ae.js?cb=2"
+    },
+    {
+      "src": "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms~client_identity~telemetry~onsite-triggering-v2~.67b58633b3238.js?cb=2",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms~client_identity~telemetry~onsite-triggering-v2~.67b58633b3238.js?cb=2"
+    },
+    {
+      "src": "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms~reviews~atlas~product_recommendations.8ab9a4ef82ae0.js?cb=2",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms~reviews~atlas~product_recommendations.8ab9a4ef82ae0.js?cb=2"
+    },
+    {
+      "src": "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms.dcf7d11f6b2cf.js?cb=2",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms.dcf7d11f6b2cf.js?cb=2"
+    },
+    {
+      "src": "https://static.klaviyo.com/onsite/js/default~in_app_forms~signup_forms.06d46f5f020f8.js?cb=2",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://static.klaviyo.com/onsite/js/default~in_app_forms~signup_forms.06d46f5f020f8.js?cb=2"
+    },
+    {
+      "src": "https://static.klaviyo.com/onsite/js/signup_forms.1f8336a320367.js?cb=2",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://static.klaviyo.com/onsite/js/signup_forms.1f8336a320367.js?cb=2"
+    },
+    {
+      "src": "https://static-tracking.klaviyo.com/onsite/js/post_identification_sync.c24f1a19e213a.js?cb=2",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://static-tracking.klaviyo.com/onsite/js/post_identification_sync.c24f1a19e213a.js?cb=2"
+    },
+    {
+      "src": "https://static.klaviyo.com/onsite/js/event_adapter.a8b6cc8b3fcd8.js?cb=2",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://static.klaviyo.com/onsite/js/event_adapter.a8b6cc8b3fcd8.js?cb=2"
+    },
+    {
+      "src": "https://static-tracking.klaviyo.com/onsite/js/telemetry.a7ab30aed9e7b.js?cb=2",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://static-tracking.klaviyo.com/onsite/js/telemetry.a7ab30aed9e7b.js?cb=2"
+    },
+    {
+      "src": "https://res4.applovin.com/p/104/b/bs.c9e1074f5b3f9fc8ea15d152add07294-1.iife.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://res4.applovin.com/p/104/b/bs.c9e1074f5b3f9fc8ea15d152add07294-1.iife.js"
+    },
+    {
+      "src": "https://res4.applovin.com/p/104/hs/hs.iife.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://res4.applovin.com/p/104/hs/hs.iife.js"
+    },
+    {
+      "src": "https://media.accdn.dev/globalScript/_xlr8d_boilerplate/setup.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://media.accdn.dev/globalScript/_xlr8d_boilerplate/setup.js"
+    },
+    {
+      "src": "https://cdn-widgetsrepository.yotpo.com/widget-assets/widget-reviews-star-ratings/app.v0.36.2-1440.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://cdn-widgetsrepository.yotpo.com/widget-assets/widget-reviews-star-ratings/app.v0.36.2-1440.js"
+    },
+    {
+      "src": "https://backend.alia-prod.com/public/app.js?tag=v3.7.85",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://backend.alia-prod.com/public/app.js?tag=v3.7.85"
+    },
+    {
+      "src": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10812419834/?random=1786707998716&cv=11&fst=1786707998716&bg=ffffff&guid=ON&async=1&gtm=45be68c1v9134339849z8857774194za200xea&gcd=13v3v3v2v5l1&dma_cps=a&dma=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119381662~119527019~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fellaola.com%2F&rcb=13&frm=0&tiba=EllaOla%20%7C%20Next%20Generation%20Wellness%20%7C%20Science%20First%2C%20Plant-Based&did=dZml0Zj&gdid=dZml0Zj&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=460294546.1786707997&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4",
+      "inline": false,
+      "category": "analytics",
+      "evidence": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10812419834/?random=1786707998716&cv=11&fst=1786707998716&bg=ffffff&guid=ON&async=1&gtm=45be68c1v9134339849z8857774194za200xea&gcd=13v3v3v2v5l1&dma_cps=a&dma=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~119381662~119527019~120385422&u_w=1280&u_h=720&url=https%3A%2F%2Fellaola.com%2F&rcb=13&frm=0&tiba=EllaOla%20%7C%20Next%20Generation%20Wellness%20%7C%20Science%20First%2C%20Plant-Based&did=dZml0Zj&gdid=dZml0Zj&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=460294546.1786707997&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4"
+    },
+    {
+      "src": "https://cdn.rebuyengine.com/onsite/js/global-1d6303c812cc49b30166.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://cdn.rebuyengine.com/onsite/js/global-1d6303c812cc49b30166.js"
+    },
+    {
+      "src": "https://widgets.goaffpro.app/main.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://widgets.goaffpro.app/main.js"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://sdk.postscript.io/sdk.bundle.js?shopId=745389",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://sdk.postscript.io/sdk.bundle.js?shopId=745389"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/splide.min.js?v=110955684368209111411780191155",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/splide.min.js?v=110955684368209111411780191155"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/accordion-navigation.js?v=29345345856626199341783712028",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/accordion-navigation.js?v=29345345856626199341783712028"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/flickity.pkgd.min.js?v=36202911542973109921780191156",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/flickity.pkgd.min.js?v=36202911542973109921780191156"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/details-disclosure.js?v=3394511438802962251783712031",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/details-disclosure.js?v=3394511438802962251783712031"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/header.js?v=89279507033377935611783712035",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/header.js?v=89279507033377935611783712035"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/details-modal.js?v=42478746482685278681780191156",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/details-modal.js?v=42478746482685278681780191156"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/cart-notification.js?v=184092248558250004341783712029",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/cart-notification.js?v=184092248558250004341783712029"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/flickity.pkgd.min.js?v=36202911542973109921780191156",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/flickity.pkgd.min.js?v=36202911542973109921780191156"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/details-disclosure.js?v=3394511438802962251783712031",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/details-disclosure.js?v=3394511438802962251783712031"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/details-modal.js?v=42478746482685278681780191156",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/details-modal.js?v=42478746482685278681780191156"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/cart-notification.js?v=184092248558250004341783712029",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/cart-notification.js?v=184092248558250004341783712029"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/header-old.js?v=6395403557034386951783712033",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/header-old.js?v=6395403557034386951783712033"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/product-tabs.js?v=57223742538405414061780191153",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/product-tabs.js?v=57223742538405414061780191153"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/team-section.js?v=25091110851105125191780191155",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/team-section.js?v=25091110851105125191780191155"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/timeline-section.js?v=165244221772127858741783712042",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/timeline-section.js?v=165244221772127858741783712042"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/testimonials-carousel.js?v=183897854226786816011780191157",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/testimonials-carousel.js?v=183897854226786816011780191157"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/testimonials-carousel.js?v=183897854226786816011780191157",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/testimonials-carousel.js?v=183897854226786816011780191157"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://c.albss.com/p/l/loader.iife.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://c.albss.com/p/l/loader.iife.js"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://s.skimresources.com/js/203620X1682590.skimlinks.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://s.skimresources.com/js/203620X1682590.skimlinks.js"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/swiper-bundle.min.js?v=134837346451885428841780191154",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/swiper-bundle.min.js?v=134837346451885428841780191154"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/splide.min.js?v=110955684368209111411780191155",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/splide.min.js?v=110955684368209111411780191155"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/alpine-stores.js?v=62424268364124612681780191156",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/alpine-stores.js?v=62424268364124612681780191156"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/alpine-intersect@3.14.8.min.js?v=52733684313401286001780191156",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/alpine-intersect@3.14.8.min.js?v=52733684313401286001780191156"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/alpine-collapse@3.14.8.min.js?v=38976290738791269941780191156",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/alpine-collapse@3.14.8.min.js?v=38976290738791269941780191156"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/alpine@3.14.8.min.js?v=142555324620769094391780191152",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/alpine@3.14.8.min.js?v=142555324620769094391780191152"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/keen-slider.min.js?v=131890535429368312601780191154",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/keen-slider.min.js?v=131890535429368312601780191154"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/cart-drawer.js?v=54946902120426918791783558281",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/cart-drawer.js?v=54946902120426918791783558281"
+    },
+    {
+      "src": "//ellaola.com/cdn/shop/t/377/assets/animations.js?v=182338489924577668331780191153",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "//ellaola.com/cdn/shop/t/377/assets/animations.js?v=182338489924577668331780191153"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "theme",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://cdn.shopify.com/storefront/standard-actions.js",
+      "inline": false,
+      "category": "theme",
+      "evidence": "https://cdn.shopify.com/storefront/standard-actions.js"
+    },
+    {
+      "inline": true,
+      "category": "analytics",
+      "evidence": "inline script"
+    },
+    {
+      "inline": true,
+      "category": "unknown",
+      "evidence": "inline script"
+    },
+    {
+      "src": "https://www.googletagmanager.com/gtag/js?id=G-X35JFQDGXQ",
+      "inline": false,
+      "category": "analytics",
+      "evidence": "https://www.googletagmanager.com/gtag/js?id=G-X35JFQDGXQ"
+    },
+    {
+      "src": "https://www.googletagmanager.com/gtag/js?id=AW-10812419834",
+      "inline": false,
+      "category": "analytics",
+      "evidence": "https://www.googletagmanager.com/gtag/js?id=AW-10812419834"
+    },
+    {
+      "src": "https://www.googletagmanager.com/gtag/js?id=GT-WBTCB48",
+      "inline": false,
+      "category": "analytics",
+      "evidence": "https://www.googletagmanager.com/gtag/js?id=GT-WBTCB48"
+    },
+    {
+      "src": "https://wsmcdn.audioeye.com/aem.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://wsmcdn.audioeye.com/aem.js"
+    },
+    {
+      "src": "https://wsv3cdn.audioeye.com/bootstrap.js?h=0c549b8ea88102d372f598a006b6f596",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://wsv3cdn.audioeye.com/bootstrap.js?h=0c549b8ea88102d372f598a006b6f596"
+    },
+    {
+      "src": "/apps/awin/95855.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "/apps/awin/95855.js"
+    },
+    {
+      "src": "https://wsv3cdn.audioeye.com/v2/scripts/loader.js?h=0c549b8ea88102d372f598a006b6f596&lang=en&cb=2026-08-05",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://wsv3cdn.audioeye.com/v2/scripts/loader.js?h=0c549b8ea88102d372f598a006b6f596&lang=en&cb=2026-08-05"
+    },
+    {
+      "src": "https://lantern.roeyecdn.com/lantern_global_95855.min.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://lantern.roeyecdn.com/lantern_global_95855.min.js"
+    },
+    {
+      "src": "https://wsv3cdn.audioeye.com/static-scripts/v2/2026-08-05/startup.bundle.js",
+      "inline": false,
+      "category": "unknown",
+      "evidence": "https://wsv3cdn.audioeye.com/static-scripts/v2/2026-08-05/startup.bundle.js"
+    }
+  ],
+  "apps": [
+    {
+      "name": "Klaviyo",
+      "evidence": [
+        "matched /klaviyo/"
+      ]
+    },
+    {
+      "name": "Judge.me",
+      "evidence": [
+        "matched /judge\\.me|judgeme/"
+      ]
+    },
+    {
+      "name": "Yotpo",
+      "evidence": [
+        "matched /yotpo/"
+      ]
+    },
+    {
+      "name": "Rebuy",
+      "evidence": [
+        "matched /rebuy/"
+      ]
+    }
+  ],
+  "shopify": {
+    "detected": true,
+    "hasProductForm": false,
+    "productFormSelectors": [],
+    "hasCartDrawer": false,
+    "usesAjaxApi": false,
+    "sections": [
+      "announcement-bar",
+      "header",
+      "header-old",
+      "template--21692556542197__hero_banner_4eK4VF",
+      "template--21692556542197__home_icon_grid_gc3Mhj",
+      "template--21692556542197__home_product_tabs_cjPzex",
+      "template--21692556542197__home_experts_gBPNaq",
+      "template--21692556542197__home_comparison_QCBdeU",
+      "template--21692556542197__home_image_with_icon_group_LNTRaz",
+      "template--21692556542197__home_timeline_7McNGg",
+      "template--21692556542197__home_testimonials_F3knFh",
+      "template--21692556542197__home_feature_in_hYiiT6",
+      "template--21692556542197__home_feature_in_JULtAF",
+      "template--21692556542197__home_testimonials_hcDkUp",
+      "template--21692556542197__home_image_text_split_YGRbdw",
+      "template--21692556542197__home_giving_back_WFVKac",
+      "footer"
+    ],
+    "evidence": [
+      "cdn.shopify.com asset host",
+      "Shopify JS global present",
+      "shopify-section wrappers in DOM",
+      "ShopifyAnalytics meta"
+    ]
+  },
+  "breakpoints": [
+    {
+      "name": "mobile",
+      "maxWidth": 749
+    },
+    {
+      "name": "tablet",
+      "minWidth": 750,
+      "maxWidth": 989
+    },
+    {
+      "name": "desktop",
+      "minWidth": 990
+    }
+  ],
+  "capturedAt": "2026-08-14T11:46:58.643Z",
+  "ttlSeconds": 604800
+}
